@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "weather",
+    "name": "너의 날씨는",
     "slug": "weather",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,13 +17,16 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.dreamystar.weather",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.dreamystar.weather"
     },
     "web": {
       "favicon": "./assets/favicon.png"
